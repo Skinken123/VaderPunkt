@@ -1,0 +1,4 @@
+/* 
+    Fetch weather data from SMHI and YR based on a search string 
+    coming from the user and then send the information to the model.
+*/

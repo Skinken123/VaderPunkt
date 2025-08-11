@@ -1,0 +1,3 @@
+/*
+    Storeres information which will be shown to the user through page views.
+ */

@@ -1,0 +1,3 @@
+/*
+    Handles infromation returned in the promise from the api request and updates model
+*/
