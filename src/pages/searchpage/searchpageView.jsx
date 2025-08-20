@@ -5,12 +5,8 @@ export function SearchpageView(props) {
     
     return(
         <div>
-            <div>
-            Hello World Search!
-            </div>
-            <div>
+            Hello World Search! <br />
             <button onClick={enterHomapageACB}>Back to home</button>
-            </div>
         </div>
     );
 }
