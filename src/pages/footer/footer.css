@@ -1,0 +1,16 @@
+.footerContainer{
+    background-color: hsl(0, 0%, 80%);
+    height: 15vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footerTitle{
+    font-family: sans-serif;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: whitesmoke;
+    margin: 3px;
+}

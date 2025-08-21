@@ -2,7 +2,8 @@ import { observer } from "mobx-react-lite";
 import { RouterProvider, createHashRouter } from "react-router-dom"; 
 import { HomepagePresenter } from "/src/pages/homepage/homepagePresenter";
 import { SearchpagePresenter } from "/src/pages/searchpage/searchpagePresenter";
-import { FooterPresenter } from "../components/footer/footerPresenter";
+import { FooterPresenter } from "../pages/footer/footerPresenter";
+import { HeaderPresenter } from "../pages/header/headerPresenter";
 
 const Root = observer(
     function Root (props) {
@@ -10,8 +11,9 @@ const Root = observer(
         
         return (
             <>
-                 <RouterProvider router={makeRouter(props.model)}/>
-                 <FooterPresenter/>
+                <HeaderPresenter/>
+                <RouterProvider router={makeRouter(props.model)}/>
+                <FooterPresenter/>
             </>
         );  
     },
