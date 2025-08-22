@@ -7,8 +7,18 @@ export function SearchpageView(props) {
     
     return(
         <div className="searchpageContainer" >
-            Hello World Search! <br />
-            <button onClick={enterHomapageACB}>Back to home</button>
+
+            <div className="headContainer">
+                <h2 id="locationText">Location: {props.location} temp</h2>
+                <input type="text" placeholder="Search..." id="searchBar2"/>
+            </div>
+            <div className="daysContainer">
+                days
+            </div>
+            <div className="otherContainer">
+                misc
+            </div>
+
         </div>
     );
 }

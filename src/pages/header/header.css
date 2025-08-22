@@ -3,6 +3,9 @@
     background-color: hsl(240, 90%, 70%);
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+
+}
+#headerIcon{
+    margin: 5px;
 }

@@ -1,11 +1,11 @@
 .footerContainer{
     background-color: hsl(0, 0%, 80%);
-    height: 15vh;
+    height: 10vh;
     
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: center; 
 }
-#footerTitle{
-
+.infoContainer{
+    margin: 5px;
 }

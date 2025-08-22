@@ -3,7 +3,11 @@ import "./footer.css";
 export function FooterView(props){
     return(
         <div className="footerContainer">
-            <h2 id="footerTitle">This is the Footer</h2>
+            <div className="infoContainer">
+                author: Gustav Moritz <br />
+                contact: <a href="mailto:guma.moritz@gmail.com">guma.moritz@gmail.com</a> <br />
+                &copy; copyright reserved
+            </div>
         </div>
     );
 }
