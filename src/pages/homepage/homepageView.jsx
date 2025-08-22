@@ -14,12 +14,31 @@ export function HompageView(props) {
             </div>
 
             <div className="searchContainer">
-                <h1>Search</h1>
-                <button onClick={enterSearchpageACB}>Searchpage</button>
+                Find your location! <br />
+                <input type="text" placeholder="Search..." id="searchBar"/>
             </div>
 
             <div className="dataContainer">
-                <h1>Data</h1>
+                <div className="recommendedBox">
+                    Favorites:
+                    <ul>
+                        <li>--------------------</li>
+                        <li>--------------------</li>
+                        <li>--------------------</li>
+                        <li>--------------------</li>
+                        <li>--------------------</li>
+                    </ul>
+                    </div>
+                <div className="recommendedBox">
+                    Recent:
+                    <ul>
+                        <li>--------------------</li>
+                        <li>--------------------</li>
+                        <li>--------------------</li>
+                        <li>--------------------</li>
+                        <li>--------------------</li>
+                    </ul>
+                    </div>
             </div>
 
         </div>
